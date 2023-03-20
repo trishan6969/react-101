@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Quicksand";
 }
 
 .app,
@@ -10,26 +13,103 @@
   flex-flow: column wrap;
   gap: 40px;
   align-items: center;
+  color: #8f43ee;
 }
 
 .nav {
   width: 100vw;
-  padding: 1.5rem 1rem;
-  background-color: azure;
+  padding: 1rem;
+  color: #8f43ee;
+  border-bottom: 3px solid #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav--heading {
+  padding: 0.7rem 1rem;
+  cursor: pointer;
 }
 
 .btn {
   padding: 1rem;
+  font-size: 1rem;
   border: none;
-  background-color: aliceblue;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #8f43ee;
+  border: 1px solid #8f43ee;
+  border-radius: 10px;
+  color: white;
   cursor: pointer;
+  min-width: 15rem;
+  font-weight: 500;
+}
+
+.revert {
+  border: 1px solid #8f43ee;
+  background-color: white;
+  color: #8f43ee;
+  margin-left: 3rem;
 }
 
 .btn:hover {
-  background-color: rgb(232, 239, 247);
+  background-color: #844bca;
+}
+
+.revert:hover {
+  background-color: #f5f5f5;
 }
 
 .name {
   font-size: 2rem;
+  color: black;
+}
+
+.usestate {
+  width: 100vw;
+  padding-bottom: 5rem;
+  border-bottom: 1px solid #8f43ee;
+}
+
+.mapping {
+  display: flex;
+  gap: 30px;
+  color: black;
+}
+
+.question {
+  width: 30rem;
+  border-radius: 10px;
+  padding: 3rem;
+  cursor: pointer;
+  transition: 0.2s ease;
+  border: 2px solid #f2f2f2;
+}
+
+.question:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.question-heading {
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.inc {
+  margin-left: 0;
+}
+
+.footer {
+  margin-bottom: 2.5rem;
+}
+
+.footer-details {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.logged-in {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
 }
