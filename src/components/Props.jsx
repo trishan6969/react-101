@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 const Props = (props) => {
     const { questionsArr, title } = props
-    const [questions, setQuestions] = useState(questionsArr)
+    const [questions] = useState(questionsArr)
     return (
         <div className="home-section usestate">
             <h2 className="head">{title}</h2>
