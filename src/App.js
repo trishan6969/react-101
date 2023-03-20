@@ -1,9 +1,12 @@
+import Navbar from './components/Navbar'
+import Home from './components/Home'
+
 const App = () => {
   return (
-    <>
-      <h1>Hello World</h1>
-      <h2>Hello React</h2>
-    </>
+    <div className="app">
+      <Navbar />
+      <Home />
+    </div>
   );
 }
 

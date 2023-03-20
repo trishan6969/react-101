@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app,
+.home-section {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 40px;
+  align-items: center;
+}
+
+.nav {
+  width: 100vw;
+  padding: 1.5rem 1rem;
+  background-color: azure;
+}
+
+.btn {
+  padding: 1rem;
+  border: none;
+  background-color: aliceblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(232, 239, 247);
+}
+
+.name {
+  font-size: 2rem;
+}
